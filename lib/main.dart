@@ -260,11 +260,11 @@ class AboutPage extends StatelessWidget {
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
             child: const Column(
               children: [
-                ListTile(leading: Icon(Icons.person_outline), title: Text('开发者'), subtitle: Text('AI Assistant')),
+                ListTile(leading: Icon(Icons.person_outline), title: Text('开发者'), subtitle: Text('StarNguyen with AI')),
                 Divider(height: 1, indent: 60),
                 ListTile(leading: Icon(Icons.description_outlined), title: Text('许可证'), subtitle: Text('MIT License')),
                 Divider(height: 1, indent: 60),
-                ListTile(leading: Icon(Icons.code), title: Text('开源仓库'), subtitle: Text('github.com/example/minesweeper'), trailing: Icon(Icons.open_in_new)),
+                ListTile(leading: Icon(Icons.code), title: Text('开源仓库'), subtitle: Text('github.com/GuaiRenGr/flutter_minesweeper'), trailing: Icon(Icons.open_in_new)),
               ],
             ),
           ),
